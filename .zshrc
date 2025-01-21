@@ -23,10 +23,15 @@ source $ZSH/oh-my-zsh.sh
 #ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}%1{✗%}"
 #ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[yellow]%}git:("
-ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="*)%{$reset_color%}"
 
 # shell
 unsetopt BEEP
+
+# fzf
+source <(fzf --zsh)
+#export FZF_DEFAULT_OPTS="--style default \
+#    --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}'"
 
 # android
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
@@ -37,8 +42,6 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # alias
 alias tf="terraform"
-# disable kc alias (should use k instead)
-#alias kc="kubectl"
 alias compose="docker-compose"
 alias hf="helmfile"
 
@@ -61,16 +64,18 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # nvm
 export NVM_DIR=/Users/$USERNAME/.nvm
-  [ -s /opt/homebrew/opt/nvm/nvm.sh ] && \. /opt/homebrew/opt/nvm/nvm.sh  # This loads nvm
-  [ -s /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm ] && \. /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm  # This loads nvm bash_completion
+# [ -s /opt/homebrew/opt/nvm/nvm.sh ] && \. /opt/homebrew/opt/nvm/nvm.sh  # This loads nvm
+# [ -s /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm ] && \. /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm  # This loads nvm bash_completion)
 
 # sublime
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 # completion scripts
-source <(colima completion zsh)
-source <(minikube completion zsh)
-source <(istioctl completion zsh)
+(type colima &> /dev/null && source <(colima completion zsh) &
+type minikube &> /dev/null && source <(minikube completion zsh) &
+type docker &> /dev/null && source <(docker completion zsh) &
+type istioctl %> /dev/null && source <(istioctl completion zsh)) > /dev/null
+
 #
 #
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!

@@ -41,3 +41,6 @@ noremap j h
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+" fzf
+set rtp+=/opt/homebrew/opt/fzf
