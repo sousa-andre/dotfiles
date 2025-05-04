@@ -1,0 +1,23 @@
+# lib
+source ~/.zshscripts/git.zsh
+
+autoload -U colors && colors
+
+PROMPT="
+[%*] %{$fg[cyan]%}%n%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_prompt_info)
+%(!.#.$) "
+
+# shell
+unsetopt BEEP
+
+# zshscripts
+autoload -Uz compinit
+compinit
+
+# plugins
+source ~/.zshscripts/git.plugin.zsh
+source ~/.zshscripts/kubectl.plugin.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
