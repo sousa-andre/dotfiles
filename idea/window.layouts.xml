@@ -1,0 +1,714 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "activeLayoutName": "Main",
+  "layouts": {
+    "Custom": {
+      "v2": [
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "weight": 0.25,
+          "isSplit": true
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Database",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        }
+      ]
+    },
+    "Left": {
+      "v2": [
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Commit",
+          "order": 0,
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.17504963,
+          "sideWeight": 0.718986
+        },
+        {
+          "id": "Learn",
+          "order": 1,
+          "isShowStripeButton": false,
+          "weight": 0.32991397
+        },
+        {
+          "id": "Bookmarks",
+          "order": 2,
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.17504963,
+          "sideWeight": 0.28101403,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "order": 3,
+          "weight": 0.17552494,
+          "sideWeight": 0.31877023,
+          "isSplit": true
+        },
+        {
+          "id": "TODO",
+          "order": 4,
+          "weight": 0.3298611,
+          "sideWeight": 0.5004472,
+          "isSplit": true
+        },
+        {
+          "id": "Pull Requests",
+          "order": 5,
+          "isActiveOnStart": true,
+          "weight": 0.20964566,
+          "sideWeight": 0.68122977
+        },
+        {
+          "id": "TypeScript",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "internal-profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "zeppelin-shell-toolwindow",
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "File Transfer",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "sbt-shell-toolwindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.26270324,
+          "sideWeight": 0.5463065
+        },
+        {
+          "id": "Problems View",
+          "order": 1,
+          "anchor": "BOTTOM",
+          "weight": 0.23859127,
+          "sideWeight": 0.3801498
+        },
+        {
+          "id": "Notifications",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "weight": 0.2624008,
+          "sideWeight": 0.45393562,
+          "isSplit": true
+        },
+        {
+          "id": "Services",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.2624008,
+          "sideWeight": 0.45393562,
+          "isSplit": true
+        },
+        {
+          "id": "Terminal",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            -355,
+            -640,
+            1662,
+            350
+          ],
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.26270324,
+          "sideWeight": 0.4536935,
+          "isSplit": true
+        },
+        {
+          "id": "Problems",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Messages",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "weight": 0.3303985
+        },
+        {
+          "id": "Python Packages",
+          "order": 7,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.3298611
+        },
+        {
+          "id": "Debug",
+          "order": 8,
+          "anchor": "BOTTOM",
+          "weight": 0.32977644,
+          "sideWeight": 0.50056565
+        },
+        {
+          "id": "Find",
+          "order": 9,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.33141962
+        },
+        {
+          "id": "Run",
+          "order": 10,
+          "anchor": "BOTTOM",
+          "weight": 0.23660713,
+          "sideWeight": 0.41510612
+        },
+        {
+          "id": "sbt",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Endpoints",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "bsp",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.18166777,
+          "sideWeight": 0.66396976
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Gradle",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "PlantUML",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.33546686,
+          "sideWeight": 0.4994612,
+          "isSplit": true
+        },
+        {
+          "id": "Python Console",
+          "order": 5,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.32991397
+        },
+        {
+          "id": "Database",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.36300462,
+          "sideWeight": 0.33596215,
+          "isSplit": true
+        },
+        {
+          "id": "Database Changes",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.36300462,
+          "sideWeight": 0.33596215,
+          "isSplit": true
+        },
+        {
+          "id": "BigDataToolWindow",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.18166777,
+          "sideWeight": 0.3356681,
+          "isSplit": true
+        },
+        {
+          "id": "KafkaToolWindow",
+          "order": 9,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            294,
+            162,
+            1244,
+            829
+          ],
+          "type": "FLOATING",
+          "internalType": "SLIDING",
+          "isActiveOnStart": true,
+          "weight": 0.36300462,
+          "sideWeight": 0.9921136,
+          "isSplit": true
+        },
+        {
+          "id": "aws.toolkit.explorer",
+          "order": 10,
+          "anchor": "RIGHT",
+          "weight": 0.21012574,
+          "sideWeight": 0.33911672,
+          "isSplit": true
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.17504963,
+        "bottom": 0.26270324,
+        "right": 0.18166777
+      }
+    },
+    "Main": {
+      "v2": [
+        {
+          "id": "Merge Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Learn",
+          "order": 1,
+          "isShowStripeButton": false,
+          "weight": 0.32991397
+        },
+        {
+          "id": "Bookmarks",
+          "order": 4,
+          "weight": 0.13496733,
+          "sideWeight": 0.28029445,
+          "isSplit": true
+        },
+        {
+          "id": "Commit",
+          "order": 5,
+          "isVisible": true,
+          "weight": 0.1739532,
+          "sideWeight": 0.7,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "order": 6,
+          "weight": 0.19313726,
+          "sideWeight": 0.28029445,
+          "isSplit": true
+        },
+        {
+          "id": "TODO",
+          "order": 7,
+          "weight": 0.3096073,
+          "sideWeight": 0.40984514,
+          "isSplit": true
+        },
+        {
+          "id": "Pull Requests",
+          "order": 8,
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.1739532,
+          "sideWeight": 0.3
+        },
+        {
+          "id": "Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "hadoop-toolwindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "internal-profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "sbt-shell-toolwindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "aws.cloudwatchlogs",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "EmrToolWindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "FlinkToolWindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "DataprocToolWindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "TypeScript",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "aws.sqs",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "aws.cloudformation",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "zeppelin-shell-toolwindow",
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "File Transfer",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "HiveToolWindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "GlueToolWindow",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.28433597,
+          "sideWeight": 0.6452736
+        },
+        {
+          "id": "Problems View",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.25797874,
+          "sideWeight": 0.31715894
+        },
+        {
+          "id": "Notifications",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.2624008,
+          "sideWeight": 0.45393562,
+          "isSplit": true
+        },
+        {
+          "id": "Services",
+          "order": 5,
+          "anchor": "BOTTOM",
+          "weight": 0.23325765,
+          "sideWeight": 0.3554614,
+          "isSplit": true
+        },
+        {
+          "id": "Terminal",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "floatingBounds": [
+            -355,
+            -640,
+            1662,
+            350
+          ],
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.28433597,
+          "sideWeight": 0.35472637,
+          "isSplit": true
+        },
+        {
+          "id": "Problems",
+          "order": 7,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Messages",
+          "order": 8,
+          "anchor": "BOTTOM",
+          "weight": 0.3303985
+        },
+        {
+          "id": "Python Packages",
+          "order": 9,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.3298611
+        },
+        {
+          "id": "Debug",
+          "order": 10,
+          "anchor": "BOTTOM",
+          "weight": 0.32977644,
+          "sideWeight": 0.50056565
+        },
+        {
+          "id": "Find",
+          "order": 11,
+          "anchor": "BOTTOM",
+          "weight": 0.3006757,
+          "sideWeight": 0.5005241
+        },
+        {
+          "id": "Run",
+          "order": 12,
+          "anchor": "BOTTOM",
+          "weight": 0.23660713,
+          "sideWeight": 0.41510612
+        },
+        {
+          "id": "sbt",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "bsp",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Endpoints",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Project",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.1671798,
+          "sideWeight": 0.5581818
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Gradle",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "PlantUML",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.33546686,
+          "sideWeight": 0.4994612,
+          "isSplit": true
+        },
+        {
+          "id": "Python Console",
+          "order": 5,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "weight": 0.32991397
+        },
+        {
+          "id": "Database",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.2947485,
+          "sideWeight": 0.33628842,
+          "isSplit": true
+        },
+        {
+          "id": "Database Changes",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.36300462,
+          "sideWeight": 0.33596215,
+          "isSplit": true
+        },
+        {
+          "id": "BigDataToolWindow",
+          "order": 8,
+          "anchor": "RIGHT",
+          "weight": 0.18166777,
+          "sideWeight": 0.3356681,
+          "isSplit": true
+        },
+        {
+          "id": "KafkaToolWindow",
+          "order": 9,
+          "anchor": "RIGHT",
+          "floatingBounds": [
+            307,
+            169,
+            1244,
+            829
+          ],
+          "type": "FLOATING",
+          "internalType": "SLIDING",
+          "isActiveOnStart": true,
+          "weight": 0.36300462,
+          "sideWeight": 0.9921136,
+          "isSplit": true
+        },
+        {
+          "id": "aws.toolkit.explorer",
+          "order": 10,
+          "anchor": "RIGHT",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.1671798,
+          "sideWeight": 0.44181818,
+          "isSplit": true
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.1739532,
+        "bottom": 0.28433597,
+        "right": 0.1671798
+      }
+    }
+  }
+}]]></component>
+</application>
